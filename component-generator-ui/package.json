@@ -27,7 +27,7 @@
     "react-router": "^5.2.0",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^5.0.1",
     "react-select": "^3.1.0",
     "react-sortable-hoc": "^1.11.0",
     "react-toastify": "^6.0.8",
@@ -64,6 +64,7 @@
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.20.6",
+    "sass": "^1.83.0"
   }
 }
