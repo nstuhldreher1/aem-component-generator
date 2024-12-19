@@ -1,1 +1,14 @@
 src/serviceWorker.js
+src/components/forms/AdditionalAttributesForm.js
+src/components/forms/ComponentAttributesForm.js
+src/components/forms/PropertyBuilderForm.js
+src/components/forms/TabBuilderForm.js
+src/components/forms/helper/SortableChildProperty.js
+src/components/forms/helper/SortableProperty.js
+src/components/forms/helper/SortableTab.js
+src/components/layout/Header.js
+src/components/layout/Sidebar.js
+src/components/modals/ItemsModal.js
+src/components/pages/GlobalConfiguration.js
+src/reducers/ComponentGeneratorDataReducer.js
+src/utils/wretch.js
