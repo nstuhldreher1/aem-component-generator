@@ -33,9 +33,9 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>yarn-install</id>
+                        <id>npm-install</id>
                         <goals>
-                            <goal>yarn</goal>
+                            <goal>npm</goal>
                         </goals>
                         <configuration>
                             <arguments>install</arguments>
@@ -44,16 +44,16 @@
                     <execution>
                         <id>build-frontend</id>
                         <goals>
-                            <goal>yarn</goal>
+                            <goal>npm</goal>
                         </goals>
                         <phase>prepare-package</phase>
                         <configuration>
-                            <arguments>build</arguments>
+                            <arguments>run build</arguments>
                         </configuration>
                     </execution>
                 </executions>
                 <configuration>
-                    <nodeVersion>v12.13.0</nodeVersion>
+                    <nodeVersion>v20.17.0</nodeVersion>
                     <yarnVersion>v1.19.1</yarnVersion>
                     <installDirectory>target/node</installDirectory>
                     <workingDirectory>component-generator-ui</workingDirectory>
